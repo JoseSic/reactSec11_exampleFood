@@ -1,0 +1,43 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-summary {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions button {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #8a2b06;
+  border: 1px solid #8a2b06;
+  width: 3rem;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #8a2b06;
+  color: white;
+}
+
+.price {
+  font-weight: bold;
+  color: #8a2b06;
+}
+.amount {
+  font-weight: bold;
+}
